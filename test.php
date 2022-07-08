@@ -74,6 +74,10 @@ $data[0] = purcentageVotes($data[0]);
 $data[1] = purcentageVotes($data[1]);
 $data[2] = purcentageVotes($data[2]);
 
+// N.B : Tri non réussi
+
+// asort($data[0]);
+// echo $data[0];
 
 // render the array with print_r
 echo '<pre>';
